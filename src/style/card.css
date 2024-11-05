@@ -1,0 +1,91 @@
+section{
+    margin: 10px;
+    display: grid;
+    grid-template-columns: repeat(4,4fr);
+    grid-row-gap: 20px;
+    margin-top: 10px;
+
+   
+}
+
+.card_box{
+    border: 2px solid orange;
+    text-align: center;
+    margin: 10px;
+    background-color:#1C1C1C ;
+    box-shadow: 6px 3px  orange 
+}
+
+.img_box{
+margin: 10px;
+text-align: center;
+}
+
+.details{
+    margin: 10px;
+    font-size: 20px;
+    font-family: 'Garamond', serif;
+    color: white;
+    
+}
+
+button{
+    padding: 10px;
+    font-size: 15px;
+    font-family: 'Garamond', serif;
+    color:white;
+    background-color: #003366;
+    border-radius: 20px;
+}
+
+
+.card_box {
+    border: 2px solid orange;
+    text-align: center;
+    margin: 10px;
+    background-color: #1C1C1C;
+    box-shadow: 6px 3px orange;
+    transition: all 0.3s ease-in-out; /* Add transition for all properties */
+}
+
+.card_box:hover {
+    transform: translateY(-5px); /* Slight lift effect on hover */
+    box-shadow: 8px 5px orange; /* Increased shadow on hover */
+}
+
+.img_box img {
+    transition: transform 0.3s ease-in-out; /* Add transition for image */
+}
+
+.card_box:hover .img_box img {
+    transform: scale(1.05); /* Slightly increase image size on hover */
+}
+
+button {
+    padding: 10px;
+    font-size: 15px;
+    font-family: 'Garamond', serif;
+    color: white;
+    background-color: #003366;
+    border-radius: 20px;
+    transition: background-color 0.3s ease, transform 0.2s ease; /* Add transition for button */
+    border: none; /* Remove default border */
+    cursor: pointer; /* Change cursor to pointer on hover */
+}
+
+button:hover {
+    background-color: #004080; /* Slightly lighter blue on hover */
+    transform: scale(1.05); /* Slightly increase button size on hover */
+}
+
+.details {
+    margin: 10px;
+    font-size: 20px;
+    font-family: 'Garamond', serif;
+    color: white;
+    transition: color 0.3s ease; /* Add transition for text color */
+}
+
+.card_box:hover .details {
+    color: #FFA500; /* Change text color to orange on hover */
+}
